@@ -3,7 +3,7 @@ $(document).ready(function(){
         window.location.href="../html/flagguesshome.html";
     });
     $("#b2").click(function(){
-        window.location.href="../CountryGuessinghome.html";
+        window.location.href="../html/CountryGuessinghome.html";
     });
     $("#b3").click(function(){
         window.location.href="../html/CapitalGuessingHome.html";
