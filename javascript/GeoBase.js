@@ -1,15 +1,15 @@
 $(document).ready(function(){
     $("#b1").click(function(){
-        window.location.href="/EducationalBrainTeaserInJsR/html/flagguesshome.html";
+        window.location.href="html/flagguesshome.html";
     });
     $("#b2").click(function(){
-        window.location.href="/EducationalBrainTeaserInJsR/html/CountryGuessinghome.html";
+        window.location.href="CountryGuessinghome.html";
     });
     $("#b3").click(function(){
-        window.location.href="/EducationalBrainTeaserInJsR/html/CapitalGuessingHome.html";
+        window.location.href="html/CapitalGuessingHome.html";
     });
     $("#b4").click(function(){
-        window.location.href="/EducationalBrainTeaserInJsR/index.html";
+        window.location.href="index.html";
     });
 
 });
