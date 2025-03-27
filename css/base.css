@@ -1,0 +1,114 @@
+#User-input{
+  /*   border:solid black 5px; 
+   */
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    top:10%;
+    left: 48%;
+    top: 5%;
+}
+#inputbox{
+    height: 50px;
+    width: 200px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+#enterbutton{
+    height: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#titleh1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    border:solid black 2px;
+    width: 175px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color:cadetblue;
+    position: absolute;
+    left: 20%;
+    top: 0%;
+}
+
+#userStatus{
+    position: absolute;;
+    font-size: 30px;
+    left: 43%;
+    top: 10%;
+    width: 180;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color:goldenrod;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;    
+}
+
+#messageBox{
+    font-size: 25px;
+    position: absolute;
+    left: 70%;
+    top:10%;
+    color:red;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: black;
+    border: solid black;
+    border-radius: 5px;
+}
+
+.wordlebox{
+    border: solid black 5px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    display: inline-block;
+}
+.wordlebox span{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+.box1{
+    left: 20%;
+}
+.box2{
+    left: 48%;
+}
+.box3{
+    top:61%;
+    left: 20%;
+}
+.box4{
+    top: 61%;
+    left: 48%;
+}
+
+#wordsHad{
+    border: solid black 2px;
+    max-width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    font-family: sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+#hadp{
+    position: absolute;
+    left: 70%;
+    top: 0%;
+}

@@ -1,0 +1,34 @@
+Variable name as a string in Javascript
+https://stackoverflow.com/questions/4602141/variable-name-as-a-string-in-javascript
+
+3103 common 5-letter words
+https://gist.github.com/shmookey/b28e342e1b1756c4700f42f17102c2ff
+
+How to style text inserted with innerHTML using JavaScript
+https://stackoverflow.com/questions/6876650/how-to-style-text-inserted-with-innerhtml-using-javascript
+
+Open a URL in a new tab or window on button click in JavaScript
+https://attacomsian.com/blog/javascript-open-url-in-new-tab#:~:text=Here%20is%20how%20it%20works%3A%201%20Select%20the,to%20open%20the%20link%20in%20a%20new%20tab.
+
+Can I access variables from another file?
+https://stackoverflow.com/questions/3244361/can-i-access-variables-from-another-file
+
+JavaScript equivalent to printf/String.Format
+https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
+
+Adding text to an existing text element in JavaScript via DOM
+https://stackoverflow.com/questions/41764061/adding-text-to-an-existing-text-element-in-javascript-via-dom
+
+How to iterate over Map elements in JavaScript ?
+https://www.geeksforgeeks.org/how-to-iterate-over-map-elements-in-javascript/
+
+Didnt end up creating log in and create acount :(
+
+Node JS SQLite Crash Course
+https://youtu.be/ZRYn6tgnEgM?si=oZnp4_DxuLjSgAES
+
+SQLite Database in JavaScript
+https://www.delftstack.com/howto/javascript/sqlite-javascript/
+
+Getting Data from the Backend (Node.js/Express) to the Frontend (JavaScript)
+https://www.youtube.com/watch?v=C_vv1D5oDZ0

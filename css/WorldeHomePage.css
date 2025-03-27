@@ -1,0 +1,55 @@
+#hPageTitle{
+    font-family: sans-serif;
+    font-size: 50px;
+    border: solid 5px black;
+    border-radius: 5px;
+    width: 200px;
+    padding-left: 20px;
+    background-color: cadetblue;
+    color: white;
+    position: absolute;
+    left: 45%;
+}
+
+.WordleSelector{
+    border: solid black 5px;
+    position: absolute;
+    top:20%;
+    left:40%;
+    width: 700px;
+}
+.WordleSelector p{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.WordleSelector button{
+    position: absolute;
+    left: 70%;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: white;
+    font-size: large;
+
+}
+.WordleSelector button:hover{
+    opacity: 0.5;
+}
+
+#b1{
+    top: 9%;
+}
+#b2{
+    top: 25%;
+}
+#b3{
+    top: 45%;
+}
+#b4{
+    top: 63%;
+}
+#b5{
+    top:80%
+}

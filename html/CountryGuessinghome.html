@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/EducationalBrainTeaserInJsR/css/GeoBase.css">
+
+    </head>
+    <body>
+        <h1>Country Guessing Games</h1>
+        <h2>Select Quiz below</h2>
+
+        <div class="QuizSelector ">
+            <p>European Countries</p>
+            <button id="b1" style="top:8%; left: 76%;" >Enter</button>
+            <p >Asian Countries</p>
+            <button id="b2" style="top:22%; left: 76%;">Enter</button>
+            <p >African Countries</p>
+            <button id="b3" style="top:37%; left: 76%;">Enter</button>
+            <p>North American Countries</p>
+            <button id="b4" style="top: 54%; left: 76%;">Enter</button>
+            <p>South American Countries</p>
+            <button id="b5" style="top:69%; left: 76%;">Enter</button>
+            
+            <p>Go Back</p>
+            <button id="b8" style="top:84%;left: 76%;">Enter</button>
+        </div>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+   <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                localStorage.setItem("Continent","Eu");
+                window.location.href="CountryBase.html";
+            });
+            $("#b2").click(function(){
+                localStorage.setItem("Continent","As");
+                window.location.href="CountryBase.html";
+            });
+            $("#b3").click(function(){
+                localStorage.setItem("Continent","Af");
+                window.location.href="CountryBase.html";
+            });
+            $("#b4").click(function(){
+                localStorage.setItem("Continent","Na");
+                window.location.href="CountryBase.html";
+            });
+            $("#b5").click(function(){
+                localStorage.setItem("Continent","Sa")
+                window.location.href="CountryBase.html";
+            });
+
+
+
+            $("#b8").click(function(){
+                window.location.href="GeoBase.html";
+            });
+        });
+    </script>
+</html>

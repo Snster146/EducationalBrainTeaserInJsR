@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/EducationalBrainTeaserInJsR/css/GeoBase.css">
+
+    </head>
+    <body>
+        <h1>Capital Guessing Games</h1>
+        <h2>Select Quiz below</h2>
+
+        <div class="QuizSelector ">
+            <p>European Capitals</p>
+            <button id="b1" style="top:7%" >Enter</button>
+            <p >Asian Capitals</p>
+            <button id="b2" style="top:23%">Enter</button>
+            <p >African Capitals</p>
+            <button id="b3" style="top:37%">Enter</button>
+            <p>North American Capitals</p>
+            <button id="b4" style="top:54%">Enter</button>
+            <p>South American Capitals</p>
+            <button id="b5" style="top:69%">Enter</button>
+            <p></p>
+            <p>Go Back</p>
+            <button id="b6" style="top:82%">Enter</button>
+        </div>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                localStorage.setItem("Continent","Eu");
+                window.location.href="CapitalBase.html";
+            });
+            $("#b2").click(function(){
+                localStorage.setItem("Continent","As");
+                window.location.href="CapitalBase.html";
+            });
+            $("#b3").click(function(){
+                localStorage.setItem("Continent","Af");
+                window.location.href="CapitalBase.html";
+            });
+            $("#b4").click(function(){
+                localStorage.setItem("Continent","Na");
+                window.location.href="CapitalBase.html";
+            });
+            $("#b5").click(function(){
+                localStorage.setItem("Continent","Sa");
+                window.location.href="CapitalBase.html";
+            });
+
+
+            $("#b6").click(function(){
+                window.location.href="GeoBase.html";
+            });
+        });
+    </script>
+
+</html>
